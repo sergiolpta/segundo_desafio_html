@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    background-size: 10%;
+    background-image: url("https://cf.ltkcdn.net/kids/images/orig/251592-1922x1300-Baby_Animals.jpg");
+    }
+
+body {
+    background-color: Wheat;
+    display: flex;
+    justify-content: center;
+    }
+
+.wrapper {
+    width: 1300px;
+    display: flex;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.4);
+    }
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    }
+.menu {
+    width: 15%;
+    background-color: #FFF68F;
+    border-radius: 20%;
+    padding: 10px 20px 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    }
+.header {
+    background-color: #90EE90;
+    min-height: 180px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    img    {
+    border-radius: 50%;
+        }
+    }
+.content {
+    background-color: #FFE7BA;
+    border-radius: 20%;
+    min-height: 400px;
+    padding: 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+.footer {
+    background-color: #FFE7BA;
+
+
+
+
+
+    }
+}
